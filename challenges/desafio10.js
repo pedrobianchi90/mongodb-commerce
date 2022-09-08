@@ -6,8 +6,8 @@
     {
         valoresNutricionais: {
             $elemMatch: {
-                "tipo": "proteínas",
-                "percentual": {
+                tipo: "proteínas",
+                percentual: {
                     $gte: 30,
                     $lte: 40,
                 },
