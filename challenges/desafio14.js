@@ -5,7 +5,7 @@ db.produtos.find(
         nome: 1,
         ingredientes: 1,
         valoresNutricionais: {
-            $slice: 3
-        }
-    }
+            $slice: 3,
+        },
+    },
 ).limit(3);
