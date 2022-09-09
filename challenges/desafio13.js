@@ -1,7 +1,3 @@
-// Inclua o campo criado
-// Por em todos os documentos, 
-// colocando Ronald McDonald no valor desse campo
-
 db.produtos.updateMany(
     {},
     { $set: { 
